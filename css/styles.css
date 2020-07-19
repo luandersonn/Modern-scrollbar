@@ -7,8 +7,6 @@
 
 ::-webkit-scrollbar-thumb {
     background: rgba(127, 127, 127, 0.6);    
-    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.75);
-    box-shadow:  0px 0px 6px rgba(0, 0, 0, 0.75);
 }
 
 ::-webkit-scrollbar-thumb:horizontal:hover{

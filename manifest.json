@@ -1,6 +1,6 @@
 {
     "name": "Modern scrollbar",
-    "version": "0.0.0.3",
+    "version": "0.0.0.4",
     "manifest_version": 2,
     "description": "A modern look for Chromium's scrollbar. Compatible with light and dark mode.",
     "icons": {
@@ -18,9 +18,9 @@
     "browser_action": {},
     "permissions": [
         "activeTab"
-      ],    
+    ],
     "content_scripts": [{
-        "css": ["css/styles.css"],        
-        "matches": ["<all_urls>"]        
-      }]  
+        "css": ["css/styles.css"],
+        "matches": ["<all_urls>"]
+    }]
 }

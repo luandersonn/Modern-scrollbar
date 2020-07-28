@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8" />
     <title>Modern Scrollbar</title>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/dark_mode.css">
+    <link rel="stylesheet" type="text/css" href="css/toggle_switch.css">
+    <style type="text/css">
+        .frame {
+            height: "150px";
+            width: "200px";
+            border: 1px solid rgba(127, 127, 127, 0.6);
+        }
+    </style>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Modern scrollbar</h1>
-    <table style="height: 120px;margin-left:auto;margin-right:auto;">
-        <tbody>
-            <tr>
-                <td style="width: 261px; text-align: center;">
-                    <h1>Old</h1>
-                </td>
-                <td style="width: 261px; text-align: center;">
-                    <h1><strong>New</strong></h1>
-                </td>
-            </tr>
-            <tr>
-                <td style="width: 261px; text-align: center;"><img src="images/old.PNG" alt="" width="581" height="501" /></td>
-                <td style="width: 261px;"><img src="images/new.PNG" alt="" width="581" height="501" /></td>
-            </tr>
-        </tbody>
-    </table>
+    <h3>Default scrollbar</h3>
+
+    <iframe class="frame" src="old.html"></iframe>
+
+    <h3>Modern scrollbar</h3>
+
+    <iframe class="frame" src="new.html"></iframe>
 </body>
 
 </html>

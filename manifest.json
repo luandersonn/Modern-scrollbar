@@ -1,6 +1,6 @@
 {
     "name": "Modern scrollbar",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "manifest_version": 2,
     "description": "A modern look for Chromium's scrollbar. Compatible with light and dark mode.",
     "icons": {
@@ -11,14 +11,11 @@
         "128": "icons/icon128x128.png",
         "256": "icons/icon256x256.png"
     },
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+    "browser_action": {
+        "default_title": "Modern scrollbar",
+        "default_popup": "page.html"
     },
-    "browser_action": {},
-    "permissions": [
-        "activeTab"
-    ],
+    "options_page": "page.html",
     "content_scripts": [{
         "css": ["css/styles.css"],
         "matches": ["<all_urls>"]

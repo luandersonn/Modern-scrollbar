@@ -13,11 +13,10 @@
     },
     "browser_action": {
         "default_title": "Modern scrollbar",
-        "default_popup": "page.html"
+        "default_popup": "popup.html"
     },
-    "options_page": "page.html",
     "content_scripts": [{
-        "css": ["css/styles.css"],
+        "css": ["css/scrollbar.css"],
         "matches": ["<all_urls>"]
     }]
 }

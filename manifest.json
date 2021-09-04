@@ -15,6 +15,16 @@
         "default_title": "Modern scrollbar",
         "default_popup": "popup.html"
     },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*.reddit.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "content_scripts": [
         {
             "css": [
